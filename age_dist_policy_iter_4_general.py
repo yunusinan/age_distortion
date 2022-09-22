@@ -4,12 +4,6 @@ import copy
 import csv
 import math
 
-# from multiprocessing import Pool, cpu_count
-
-
-    
-
-
 def find_idx(state, imp_num):
     """
     Given the string b, returns its index in the tree
