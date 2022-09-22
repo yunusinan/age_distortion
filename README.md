@@ -1,6 +1,6 @@
 # age_distortion
 
-age_dist_policy_iter_general.py is the Python code pertaining to the simulations in 'Optimal Policies for Age and Distortion in a Discrete-Time Model' presented in the 2021 Information Theory Workshop (ITW). It outputs the optimal values for each eta value (see the manuscript) in a .csv file.
+age_dist_policy_iter_general.py is the Python code pertaining to the simulations in 'Optimal Policies for Age and Distortion in a Discrete-Time Model' presented in the 2021 Information Theory Workshop (ITW). It outputs the optimal values for each $\eta$ value (see the manuscript) in a .csv file.
 
 ## Usage
 
