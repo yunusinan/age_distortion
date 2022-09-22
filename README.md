@@ -22,7 +22,7 @@ The main function takes the following arguments:
    
    1 - geom: geometric distribution. Following geom, one must enter its parameter p. E.g., geom 0.2
         
-   2 - poisson: Poisson distribution. Following poisson, one must enter its parameter lambda. E.g., poisson 3
+   2 - poisson: Poisson distribution (shifted to right by one to ensure strictly positive values). Following poisson, one must enter its parameter lambda. E.g., poisson 3
         
    3 - binomial: Binomial distribution. Following binomial, one must enter n and p. E.g., binomial 5 0.2
        
