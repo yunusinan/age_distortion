@@ -1,6 +1,6 @@
 # age_distortion
 
-age_dist_policy_iter_general is the Python code pertaining to the simulations in 'Optimal Policies for Age and Distortion' presented in the 2021 Information Theory Workshop (ITW). It outputs the optimal values for each eta value (see the manuscript) in a .csv file.
+age_dist_policy_iter_general is the Python code pertaining to the simulations in 'Optimal Policies for Age and Distortion in a Discrete-Time Model' presented in the 2021 Information Theory Workshop (ITW). It outputs the optimal values for each eta value (see the manuscript) in a .csv file.
 
 ## Usage
 
@@ -19,10 +19,14 @@ The main function takes the following arguments:
    imp_dist: the importance distribution must be given here. E.g., for V = {1,20} and P(V = 20) = 0.3, one must enter 1 0.7 20 0.3. The number of arguments must be 2*|V|
    
    sp_dist: the speaking distribution. There are 4 possible choices.
-        1 - geom: geometric distribution. Following geom, one must enter its parameter p. E.g., geom 0.2
-        2 - poisson: Poisson distribution. Following poisson, one must enter its parameter lambda. E.g., poisson 3
-        3 - binomial: Binomial distribution. Following binomial, one must enter n and p. E.g., binomial 5 0.2
-        4 - bernoulli: Bernoulli distribution. Following bernoulli, one must enter the two support values and the success probability p. E.g., bernoulli 3 10 0.3 yields P(Z = 10) = 0.3 and P(Z = 3) = 0.7.
+   
+   1 - geom: geometric distribution. Following geom, one must enter its parameter p. E.g., geom 0.2
+        
+   2 - poisson: Poisson distribution. Following poisson, one must enter its parameter lambda. E.g., poisson 3
+        
+   3 - binomial: Binomial distribution. Following binomial, one must enter n and p. E.g., binomial 5 0.2
+       
+   4 - bernoulli: Bernoulli distribution. Following bernoulli, one must enter the two support values and the success probability p. E.g., bernoulli 3 10 0.3 yields P(Z = 10) = 0.3 and P(Z = 3) = 0.7.
         
 Some examples:
 
