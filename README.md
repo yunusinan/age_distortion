@@ -2,7 +2,7 @@
 
 age_dist_policy_iter_general is the Python code pertaining to the simulations in 'Optimal Policies for Age and Distortion' presented in the 2021 Information Theory Workshop (ITW). It outputs the optimal values for each eta value (see the manuscript) in a .csv file.
 
-##Usage
+## Usage
 
 The main function takes the following arguments:
 
@@ -42,7 +42,7 @@ python age_dist_policy_iter_general.py out3 4.5 0.45 30 2 1 0.8 10 0.2 binomial 
 python age_dist_policy_iter_general.py out4 4.5 0.3461538462 30 2 1 0.8 10 0.2 bernoulli 1 2 1.0
 ```
 
-##References
+## References
 
 Y. İnan, R. Inovan and E. Telatar, "Optimal Policies for Age and Distortion in a Discrete-Time Model," 2021 IEEE Information Theory Workshop (ITW), 2021, pp. 1-6, doi: 10.1109/ITW48936.2021.9611456.
 
