@@ -6,7 +6,7 @@ age_dist_policy_iter_general is the Python code pertaining to the simulations in
 
 The main function takes the following arguments:
 
-filename: Name of the output .csv file containing the optimal costs
+    filename: Name of the output .csv file containing the optimal costs
     eta_max: the initial (and maximum) eta value to start the algorithm 
     eta_min: the final (and minimum) eta value to compute the average cost
     eta_num: number of eta values that the algorithm is run
