@@ -50,3 +50,7 @@ python age_dist_policy_iter_general.py out4 4.5 0.3461538462 30 2 1 0.8 10 0.2 b
 
 Y. İnan, R. Inovan and E. Telatar, "Optimal Policies for Age and Distortion in a Discrete-Time Model," 2021 IEEE Information Theory Workshop (ITW), 2021, pp. 1-6, doi: 10.1109/ITW48936.2021.9611456.
 
+## License
+
+Published under Creative Commons Attribution 4.0 International Public License.
+
