@@ -12,11 +12,11 @@ The main function takes the following arguments:
    
    eta_min: the final (and minimum) eta value to compute the average cost
    
-   eta_num: number of eta values that the algorithm is run
+   eta_num: number of eta values the algorithm is run
    
    imp_num: support size of the importance distribution, i.e. |V|.
    
-   imp_dist: the importance distribution must be given here. E.g., for V = {1,20} and P(V = 20) = 0.3, one must enter 1 0.7 20 0.3. The number of arguments must be 2*|V|
+   imp_dist: the importance distribution is given here. E.g., for V = {1,20} and P(V = 20) = 0.3, one must enter 1 0.7 20 0.3. The number of arguments must be 2*|V|
    
    sp_dist: the speaking distribution. There are 4 possible choices.
    
