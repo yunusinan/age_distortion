@@ -29,7 +29,7 @@ python age_dist_policy_iter_general.py out2 4.5 0.45 30 2 1 0.8 10 0.2 poisson 1
 ```
 
 ```bash
-age_dist_policy_iter_general.py out3 4.5 0.45 30 2 1 0.8 10 0.2 binomial 4 0.25
+python age_dist_policy_iter_general.py out3 4.5 0.45 30 2 1 0.8 10 0.2 binomial 4 0.25
 ```
 
 ```bash
